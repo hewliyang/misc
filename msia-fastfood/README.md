@@ -1,8 +1,8 @@
 # Major fast-food outlets in Malaysia
 
-This repo contains *scraped* datasets for all KFC, McDonalds, Pizza Hut and Dominos outlets in Malaysia.
+This repo contains code to *scrape* datasets for all KFC, McDonalds, Pizza Hut and Dominos outlets in Malaysia.
 
-Actually, they aren't actually really scraped. Instead, I sniffed out the API calls on their `find-a-store` pages. 
+`pip install` the packages you need.
 
 Last updated : `28/12/2022`
 
