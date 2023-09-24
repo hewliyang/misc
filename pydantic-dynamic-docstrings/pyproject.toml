@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pydantic-dynamic-docstrings"
+version = "0.1.0"
+description = ""
+authors = ["hewliyang <hewliyang@u.nus.edu>"]
+readme = "README.md"
+packages = [{include = "pydantic_dynamic_docstrings"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "==1.*"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
